@@ -1,0 +1,80 @@
+body {
+    background: url(download.png) no-repeat center fixed;
+    background-size: cover;
+    font-family: 'Century Gothic';
+    color: white;
+}
+
+h1{
+    font-size: 1.5rem;
+}
+
+.container {
+    background-color: rgb(0, 0, 0,0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    padding: 1rem 1.6rem;
+    text-align: center;
+}
+
+hr {
+    width: 80%;
+    background: rgb(247, 228, 223);
+}
+
+.fb {
+    padding: 0.5rem 2rem;
+    color: #fff;
+    background-color: #1c8fe0;
+    border: 0;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(143, 137, 201);
+}
+
+h4{
+    font-size: 1.8rem;
+    line-height: 0;
+}
+
+.container input {
+    padding: 0.5rem;
+    width: 80%;
+    background-color: transparent;
+    color: rgb(85, 100, 102);
+    text-align: left;
+    border: 0;
+    border-bottom: 2px solid white;
+}
+
+.container input:focus {
+    width: 90%;
+    transition: 0.4s ease-in-out all;
+}
+
+::placeholder {
+    color: white;
+}
+
+.container input[type='checkbox'] {
+    width: auto;
+}
+
+.btn {
+    padding: 1rem;
+    background-color: #3fec8d;
+    font-size: 1rem;
+    font-weight: 550;
+    width: 50%;
+    border-radius: 7px;
+}
+
+::selection{
+    background-color: rgb(142, 218, 231);
+}

@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Comfortaa', cursive;
+}
+
+body {
+	background: #f3f3fb;
+}
+
+nav {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	background-color: #fff;
+	border: 0;
+	border-radius: 20px;
+	width: 600px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0.5px 0.5px 0.2px 1.1px rgb(211, 207, 207);
+}
+
+nav #nav {
+	width: 480px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+nav #nav li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 90px;
+	height: 50%;
+	border-radius: 5px;
+	list-style: none;
+	transition: 0.3s ease-in-out;
+}
+
+nav #nav li:hover {
+	background: #e5e5eb9a;
+}
+
+nav #nav li a {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	text-decoration: none;
+	color: #797f8e;
+	font-size: 15px;
+}
+
+nav #nav li a i {
+	margin-left: 8px;
+}
+
+nav #nav li a ul {
+	position: absolute;
+    background: #fff;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: -0.2px 0.3px 2px 1px rgb(218, 209, 209);
+    top: 24px;
+    width: 130px;
+    right: 0;
+    transition: 0.1s ease-in-out;
+    text-align: center;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav #nav li a ul li {
+    width: 100px !important;;
+    height: 30px !important;
+    text-align: center;
+}
+
+nav #nav li:hover > a ul{
+    display: block;
+}
